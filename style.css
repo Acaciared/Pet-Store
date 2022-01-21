@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background-image {
+  background-image: url("./istockphoto-1248454290-612x612.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1 {
+  color: #690a1f;
+  font-family: "Trocchi", serif;
+  font-size: 45px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0;
+  text-align: center;
+}
+
+.breed {
+  display: flex;
+  justify-content: center;
+}
+.slides {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  flex-flow: column;
+  align-items: center;
+}
+.slide > img {
+  max-height: 600px;
+  max-width: 600px;
+  border: 8px solid #cbc6da;
+  border-radius: 4px;
+}
+
+.dogapp {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.fas {
+  cursor: pointer;
+  font-size: 50px;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(27, 15, 139);
+  color: white;
+  text-align: center;
+}
